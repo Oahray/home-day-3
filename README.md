@@ -6,7 +6,7 @@ This repository contains solutions to and tests for the Andelabs  Exercises for 
 There are two folders in this repository:
    1. binary-search: containing solution to and test for the 'Binary Search' Andelab Exercise.
    2. findMissing: containing solution to and test for the 'Find Missing' Andelab Exercise.
-   3. front-end: containing Front-end web project. 
+   3. 
 
 **TO USE:**
 
@@ -20,4 +20,3 @@ There are two folders in this repository:
 There are included tests for the reverseString and words Andelabs exercises. For your convenience, the tests have been automated. To run, simply: 
    1. Navigate to the root directory of the cloned repository on your local machine via the command line.
    2. Run `npm test`
-
