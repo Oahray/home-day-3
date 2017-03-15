@@ -1,0 +1,22 @@
+{
+  "name": "home-day-3",
+  "version": "1.0.0",
+  "description": "Solutions to the home day 3 Andelabs exercises",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine */test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oahray/home-day-3.git"
+  },
+  "author": "Oare Arene",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Oahray/home-day-3/issues"
+  },
+  "homepage": "https://github.com/Oahray/home-day-3#readme",
+  "dependencies": {
+    "jasmine": "^2.5.3"
+  }
+}
