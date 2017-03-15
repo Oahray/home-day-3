@@ -21,3 +21,6 @@ There are included tests for the reverseString and words Andelabs exercises. For
    1. Navigate to the root directory of the cloned repository on your local machine via the command line.
    2. Run `npm test`
 
+**FRONT-END PROJECT**
+
+Go [HERE](https://oahray.github.io/home-day-3/) to view hosted version of the Front End Project.
