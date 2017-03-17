@@ -1,32 +1,32 @@
 
-Array.prototype.toTwenty = function() {
+Array.prototype.toTwenty = (function() {
   result = [];
   for (var i = 1; i <= 20; i++) {
     result.push(i);
     }
     return result;
-   };
-toTwenty = Array.prototype.toTwenty();
+   })();
+// toTwenty = Array.prototype.toTwenty();
 
    
-Array.prototype.toFourty = function() {
+Array.prototype.toForty = (function() {
   result = [];
   for (var i = 2; i <= 40; i += 2) {
     result.push(i);
     }
     return result;
-   };
-toForty = Array.prototype.toFourty();
+   })();
+// toForty = Array.prototype.toForty();
 
    
-Array.prototype.toOneThousand = function() {
+Array.prototype.toOneThousand = (function() {
   result = [];
   for (var i = 10; i <= 1000; i += 10) {
     result.push(i);
     }
     return result;
-   };
-toOneThousand = Array.prototype.toOneThousand();
+   })();
+// toOneThousand = Array.prototype.toOneThousand();
    
 Array.prototype.search = function(n) {
   var found = false;
@@ -63,12 +63,12 @@ Array.prototype.search = function(n) {
     count++;
   }
   return {"count" : count, "index" : index, "length" : length};
-};
-var search = Array.prototype.search
+}
+// var search = Array.prototype.search
 
-module.exports = {
-  toTwenty, 
-  toForty, 
-  toOneThousand,
-  search
-  }
+// module.exports = {
+//   toTwenty, 
+//   toForty, 
+//   toOneThousand,
+//   search
+//   }
